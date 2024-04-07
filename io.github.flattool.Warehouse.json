@@ -48,8 +48,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "tag" : "1.6.0",
-                    "commit" : "74b50187b49fb95f75ed93bde28380a98314e20d",
+                    "tag" : "1.6.1",
+                    "commit" : "b9249a43f1b8275ccf58d4c22d00f0a2df4c700a",
                     "url" : "https://github.com/flattool/warehouse.git"
                 }
             ]
