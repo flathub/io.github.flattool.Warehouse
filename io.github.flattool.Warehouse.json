@@ -33,7 +33,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.10.0"
+                    "tag": "v0.14.0"
                 }
             ],
             "cleanup": ["*"]
@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag": "1.6.5",
-                    "commit": "5a9540538846fbb6c0de07751fb280a204645d66",
+                    "tag": "2.0.0-beta",
+                    "commit": "0ad5dca8d68e9223ed0026037e0342407f444030",
                     "url": "https://github.com/flattool/warehouse.git"
                 }
             ]
