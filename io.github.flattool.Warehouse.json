@@ -4,16 +4,17 @@
     "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "command": "warehouse",
-    "finish-args": [
-        "--share=ipc",
-        "--socket=fallback-x11",
-        "--device=dri",
-        "--socket=wayland",
-        "--talk-name=org.freedesktop.Flatpak",
-        "--filesystem=/var/lib/flatpak/:ro",
-        "--filesystem=~/.local/share/flatpak/:ro",
-        "--filesystem=~/.var/app/"
-    ],
+	"finish-args": [
+		"--share=ipc",
+		"--socket=fallback-x11",
+		"--device=dri",
+		"--socket=wayland",
+		"--talk-name=org.freedesktop.Flatpak",
+		"--filesystem=/var/lib/flatpak/:ro",
+		"--filesystem=~/.local/share/flatpak/:ro",
+		"--filesystem=~/.var/app/",
+		"--filesystem=host-etc"
+	],
     "cleanup": [
         "/include",
         "/lib/pkgconfig",
@@ -33,7 +34,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.10.0"
+                    "tag": "v0.14.0"
                 }
             ],
             "cleanup": ["*"]
@@ -46,8 +47,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag": "1.6.5",
-                    "commit": "5a9540538846fbb6c0de07751fb280a204645d66",
+                    "tag": "2.0.0",
+                    "commit": "b4e930f31ec456494ebd69408b749a4d8305a2eb",
                     "url": "https://github.com/flattool/warehouse.git"
                 }
             ]
