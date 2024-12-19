@@ -157,7 +157,7 @@
                 {
                     "type" : "git",
                     "tag": "2.0.1-1",
-                    "commit": "14c49a3c775bd5fc636e473eb41d7cd801177c1d",
+                    "commit": "c1dd74a45b553f2506a9d6990032cebca7b9df48",
                     "url": "https://github.com/flattool/warehouse.git"
                 }
             ]
