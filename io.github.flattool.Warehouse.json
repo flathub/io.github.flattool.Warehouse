@@ -1,7 +1,7 @@
 {
 	"id": "io.github.flattool.Warehouse",
 	"runtime": "org.gnome.Platform",
-	"runtime-version": "48",
+	"runtime-version": "49",
 	"sdk": "org.gnome.Sdk",
 	"command": "warehouse",
 	"finish-args": [
@@ -34,7 +34,7 @@
 				{
 					"type": "git",
 					"url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-					"tag": "v0.16.0"
+					"tag": "v0.18.0"
 				}
 			],
 			"cleanup": ["*"]
@@ -47,8 +47,8 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "2.1.0",
-					"commit": "b99887054f1a10d3e60d671c2919788a5e7f6459",
+					"tag": "2.2.0",
+					"commit": "4e45cb52caa7a32717b2037f4b0fb8a331c9e7c6",
 					"url": "https://github.com/flattool/warehouse.git"
 				}
 			]
