@@ -37,7 +37,11 @@
 					"type": "git",
 					"tag": "2.2.0",
 					"commit": "4e45cb52caa7a32717b2037f4b0fb8a331c9e7c6",
-					"url": "https://github.com/flattool/warehouse.git"
+					"url": "https://github.com/flattool/warehouse.git",
+					"x-checker-data": {
+						"type": "git",
+						"tag-pattern": "^([\\d.]+)$"
+					}
 				}
 			]
 		}
